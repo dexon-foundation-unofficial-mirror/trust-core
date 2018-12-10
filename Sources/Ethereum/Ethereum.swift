@@ -102,3 +102,13 @@ public final class TomoChain: Ethereum {
         return .tomoChain
     }
 }
+
+public final class Dexon: Ethereum {
+    public override var chainID: Int {
+        return 237
+    }
+
+    public override var coinType: SLIP.CoinType {
+        return .dexon
+    }
+}
